@@ -135,7 +135,7 @@ public class Sim extends CordovaPlugin {
 		  break;
 		  case 23436:
 		  case 23407:
-		  case 23407:
+		  case 23492:
 			return "Cable and Wireless";
 		  break;
 		  case 23477:
