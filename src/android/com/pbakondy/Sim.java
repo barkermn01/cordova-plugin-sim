@@ -37,107 +37,109 @@ public class Sim extends CordovaPlugin {
 
   private CallbackContext callback;
   
-  public String getCarrierFromMCCMNC(String Operator){
+  
+  public String getCarrierFromMCCMNC(String OperatorStr){
+	  int Operator = Integer.parseInt(OperatorStr);
 	  switch(Operator){
-		  case "23478":
+		  case 23478:
 			return "Wave Telecom Ltd";
 		  break;
-		  case "23427":
-		  case "23491":
-		  case "23415":
-		  case "23423":
-		  case "23403":
+		  case 23427:
+		  case 23491:
+		  case 23415:
+		  case 23423:
+		  case 23403:
 			return "Vodafone";
 		  break;
-		  case "23425":
+		  case 23425:
 			return "Truphone";
 		  break;
-		  case "23409":
+		  case 23409:
 			return "Tismi";
 		  break;
-		  case "23437":
+		  case 23437:
 			return "Synectiv Ltd.";
 		  break;
-		  case "23424":
+		  case 23424:
 			return "Stour Marine";
 		  break;
-		  case "23422":
+		  case 23422:
 			return "Routotelecom";
 		  break;
-		  case "23412":
+		  case 23412:
 			return "Railtrack Plc";
 		  break;
-		  case "23419":
+		  case 23419:
 			return "PMN/Teleware";
 		  break;
-		  case "23416":
+		  case 23416:
 			return "Opal Telecom";
 		  break;
-		  case "23408":
+		  case 23408:
 			return "OnePhone";
 		  break;
-		  case "23410":
-		  case "23411":
-		  case "23402":
+		  case 23410:
+		  case 23411:
+		  case 23402:
 			return "O2 Ltd.";
 		  break;
-		  case "23428":
+		  case 23428:
 			return "Marthon Telecom";
 		  break;
-		  case "23401":
+		  case 23401:
 			return "Mapesbury C. Ltd";
 		  break;
-		  case "23458":
+		  case 23458:
 			return "Manx Telecom";
 		  break;
-		  case "23426":
+		  case 23426:
 			return "Lycamobile";
 		  break;
-		  case "23435":
+		  case 23435:
 			return "JSC Ingenicum";
 		  break;
-		  case "23450":
-		  case "23451":
+		  case 23450:
+		  case 23451:
 			return "Jersey Telecom";
 		  break;
-		  case "23475":
+		  case 23475:
 			return "Inquam Telecom Ltd";
 		  break;
-		  case "23494":
-		  case "23420":
+		  case 23494:
+		  case 23420:
 			return "Hutchinson 3G";
 		  break;
-		  case "23414":
+		  case 23414:
 			return "HaySystems";
 		  break;
-		  case "23455":
+		  case 23455:
 			return "Guernsey Telecoms";
 		  break;
-		  case "23417":
+		  case 23417:
 			return "FlexTel";
 		  break;
-		  case "23430":
-		  case "23431":
-		  case "23432":
+		  case 23430:
+		  case 23431:
+		  case 23432:
 			return "EE - T-Mobile";
 		  break;
-		  case "23433":
-		  case "23434":
+		  case 23433:
+		  case 23434:
 			return "EE - Orange";
 		  break;
-		  case "23502":
+		  case 23502:
 			return "EE";
 		  break;
-		  case "23418":
+		  case 23418:
 			return "Cloud9";
 		  break;
-		  case "23436":
-		  case "23407":
-		  case "23407":
+		  case 23436:
+		  case 23407:
+		  case 23407:
 			return "Cable and Wireless";
 		  break;
-		  case "23477":
-		  case "23476":
+		  case 23477:
+		  case 23476:
 			return "BT Group";
 		  break;
 	  }
