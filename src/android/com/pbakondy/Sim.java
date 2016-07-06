@@ -38,7 +38,7 @@ public class Sim extends CordovaPlugin {
   private CallbackContext callback;
   
   public String getCarrierFromMCCMNC(String Operator){
-	  switch(MNC){
+	  switch(Operator){
 		  case "23478":
 			return "Wave Telecom Ltd";
 		  break;
