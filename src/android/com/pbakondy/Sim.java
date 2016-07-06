@@ -114,6 +114,7 @@ public class Sim extends CordovaPlugin {
 		  case 23476:
 			return "BT Group";
 	  }
+	  return "Unknown";
   }
 
   @Override
