@@ -50,6 +50,8 @@ public class Sim extends CordovaPlugin {
       String countryCode = manager.getSimCountryIso();
       String simOperator = manager.getSimOperator();
       String carrierName = manager.getSimOperatorName();
+      String carrierName = manager.getSimOperatorName();
+      String networkOperator = manager.getNetworkOperator();
 
       String deviceId = "";
       String deviceSoftwareVersion = "";
@@ -84,6 +86,7 @@ public class Sim extends CordovaPlugin {
 
       result.put("carrierName", carrierName);
       result.put("countryCode", countryCode);
+      result.put("networkOperator", networkOperator);
       result.put("mcc", mcc);
       result.put("mnc", mnc);
 
